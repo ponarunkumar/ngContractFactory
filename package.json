@@ -8,8 +8,12 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "truffle-contract": "^3.0.3",
+    "truffle-default-builder": "^2.0.0"
+  },
   "devDependencies": {
+    "truffle-contract": "^3.0.3",
     "truffle-default-builder": "^2.0.0"
   },
   "directories": {

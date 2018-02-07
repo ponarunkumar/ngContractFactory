@@ -18233,10 +18233,15 @@ window.__contracts__ = {
       "events": {},
       "links": {},
       "address": "0x17b9cc20276540a89b90dc5522e25bda2614f5c7"
+    },
+    "1518021943350": {
+      "events": {},
+      "links": {},
+      "address": "0x0d4f48c4cf04479fe0366b8bb0cb8182a5cb10a4"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-07T00:23:17.706Z"
+  "updatedAt": "2018-02-07T16:46:08.652Z"
 },
   "ConvertLib": {
   "contract_name": "ConvertLib",
@@ -19196,10 +19201,15 @@ window.__contracts__ = {
       "events": {},
       "links": {},
       "address": "0x17976215763926a402df8f58e0f9d24ffd5d564a"
+    },
+    "1518021943350": {
+      "events": {},
+      "links": {},
+      "address": "0x8a04437233a988dc2d3dd87fc71ce6ad031d832f"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-07T00:23:17.693Z"
+  "updatedAt": "2018-02-07T16:46:08.661Z"
 }
 };
 
@@ -19583,8 +19593,13 @@ STANDALONEMONTH:"January February March April May June July August September Oct
 minFrac:2,minInt:1,negPre:"-\u00a4",negSuf:"",posPre:"\u00a4",posSuf:""}]},id:"en-us",localeID:"en_US",pluralCat:function(a,c){var e=a|0,f=c;void 0===f&&(f=Math.min(b(a),3));Math.pow(10,f);return 1==e&&0==f?"one":"other"}})}]),z(function(){we(w.document,Uc)}))})(window);!window.angular.$$csp().noInlineStyle&&window.angular.element(document.head).prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 //# sourceMappingURL=angular.min.js.map
 
+
+
 var app = angular.module('campaignApp', []);
 
+var truffleContract = require("truffle-contract");
+var campaignJson = require("../../build/contracts/Campaign.json");
+var Campaign = truffleContract(campaignJson);
 // configure preferences for the angular app
 
 app.config(function($locationProvider){

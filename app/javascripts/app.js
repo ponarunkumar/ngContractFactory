@@ -1,5 +1,10 @@
+
+
 var app = angular.module('campaignApp', []);
 
+var truffleContract = require("truffle-contract");
+var campaignJson = require("../../build/contracts/Campaign.json");
+var Campaign = truffleContract(campaignJson);
 // configure preferences for the angular app
 
 app.config(function($locationProvider){
