@@ -5,7 +5,8 @@ module.exports = {
 		"index.html" : "index.html",
 		"app.js" : [
 			"javascripts/_vendor/angular.min.js",
-			"javascripts/app.js"
+			"javascripts/app.js",
+			"javascripts/_vendor/truffle-contract.js"
 			],
 		"app.css" : [
 			"stylesheets/app.css"

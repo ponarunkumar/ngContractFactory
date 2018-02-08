@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.9",
+    "serve": "^6.4.9",
+    "truffle": "^4.0.6",
     "truffle-contract": "^3.0.3",
     "truffle-default-builder": "^2.0.0"
   },

@@ -1,5 +1,5 @@
 
-
+require('angular');
 var app = angular.module('campaignApp', []);
 
 var truffleContract = require("truffle-contract");
